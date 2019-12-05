@@ -1,0 +1,65 @@
+/*---------------------------------Menu-----------------------------------------------------------*/
+#menu { float: left; position: relative; top: 0; left: 0; overflow: hidden; }
+#menu .colourful { display: block; position: absolute; background: #4CBB17; height: 38px; width: 100px; top: 4px; left: -100px; }
+#menu ul { margin: 0; padding: 0; list-style: none; float: left; position: relative; top: 0; left: 0; z-index: 1; }
+#menu li { float: left; margin: 0 1px 0 0; }
+#menu a:link, #menu a:visited, #menu a:hover, #menu a:active { color: #000; text-align: center; display: block; border: solid; border-width: 4px 0 0; line-height: 40px; width: 100px; }
+#menu li a:hover { text-decoration: none; color: #fff; text-shadow: 0 0 1px #999; }
+/*---------------------------------Menu-END-----------------------------------------------------------*/
+.fixed {
+  position: fixed;
+  bottom: 0;
+  border: 3px solid #73AD21;
+  width: 100%;
+  background-color:#fff;
+  height:140px;
+  z-index: 90;
+}
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+}
+.padding {
+padding-top:20px;
+padding-bottom:20px;
+}
+.paddingsm {
+padding-top:10px;
+padding-bottom:10px;
+}
+.marginsm {
+margin-bottom:10px;
+}
+.margin {
+margin-left:10px;
+margin-right:10px;
+}
+.paddingtop {
+padding-top:15px;
+}
+.emptyall{
+	margin-top:50px;
+	margin-bottom:50px;
+	padding: 50px;
+	background-color:#fff;
+}
+.bgw{
+	background-color:#fff;
+}
+
+.bgwo{
+	background-color:#fff;
+	opacity:0.5;
+}
+
+
+
+
+
+
+
+
+
+
